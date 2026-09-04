@@ -1,9 +1,5 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  sassOptions: {
-    additionalData: `@use "@styles/theme.scss" as *;`,
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

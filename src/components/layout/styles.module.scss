@@ -1,3 +1,5 @@
+@use "@styles/breakpoints.scss" as *;
+
 .gridFull {
   grid-template-columns: 1fr;
 }
