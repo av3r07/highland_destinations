@@ -25,12 +25,7 @@ export const HeroBanner = (): React.ReactNode => {
         className={cx("w-max-content", styles.heroBannerImage)}
       />
       <Box className="d-flex flex-column align-center justify-between gap-1">
-        <Box
-          className={cx(
-            "d-flex align-center gap-1 w-full",
-            styles.contactInfoBox,
-          )}
-        >
+        <Box className={cx("d-flex align-center gap-1", styles.contactInfoBox)}>
           <Box
             className={cx(
               "d-flex align-center justify-center",
@@ -47,12 +42,7 @@ export const HeroBanner = (): React.ReactNode => {
             {CONTACT_INFO.phoneNumber}
           </Link>
         </Box>
-        <Box
-          className={cx(
-            "d-flex align-center gap-1 w-full",
-            styles.contactInfoBox,
-          )}
-        >
+        <Box className={cx("d-flex align-center gap-1", styles.contactInfoBox)}>
           <Box
             className={cx(
               "d-flex align-center justify-center",
