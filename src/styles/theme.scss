@@ -1,0 +1,521 @@
+/* =========================================================
+   THEME
+   Core design tokens
+========================================================= */
+
+/* =======================================================
+      RESPONSIVE BREAKPOINTS
+  ======================================================= */
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 911px;
+$breakpoint-xl: 1200px;
+$breakpoint-2xl: 1400px;
+
+:root {
+  /* =======================================================
+     FONT WEIGHTS
+  ======================================================= */
+
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+
+  /* Semantic aliases */
+  --font-weight-light: var(--font-weight-300);
+  --font-weight-regular: var(--font-weight-400);
+  --font-weight-medium: var(--font-weight-500);
+  --font-weight-semi-bold: var(--font-weight-600);
+  --font-weight-bold: var(--font-weight-700);
+
+  /* =======================================================
+     FONT SIZES
+  ======================================================= */
+
+  --font-size-10: 10px;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-32: 32px;
+  --font-size-36: 36px;
+  --font-size-40: 40px;
+  --font-size-48: 48px;
+  --font-size-56: 56px;
+  --font-size-64: 64px;
+  --font-size-72: 72px;
+
+  /* Semantic aliases */
+  --font-size-xs: var(--font-size-12);
+  --font-size-sm: var(--font-size-14);
+  --font-size-md: var(--font-size-16);
+  --font-size-lg: var(--font-size-18);
+  --font-size-xl: var(--font-size-20);
+  --font-size-2xl: var(--font-size-24);
+  --font-size-3xl: var(--font-size-28);
+  --font-size-4xl: var(--font-size-32);
+  --font-size-5xl: var(--font-size-36);
+  --font-size-6xl: var(--font-size-40);
+  --font-size-7xl: var(--font-size-48);
+  --font-size-8xl: var(--font-size-56);
+  --font-size-9xl: var(--font-size-64);
+  --font-size-10xl: var(--font-size-72);
+
+  /* =======================================================
+     LINE HEIGHT
+  ======================================================= */
+
+  --line-height-1: 1;
+  --line-height-1-1: 1.1;
+  --line-height-1-2: 1.2;
+  --line-height-1-5: 1.5;
+  --line-height-1-6: 1.6;
+  --line-height-1-8: 1.8;
+
+  --line-height-none: var(--line-height-1);
+  --line-height-tight: var(--line-height-1-1);
+  --line-height-snug: var(--line-height-1-2);
+  --line-height-normal: var(--line-height-1-5);
+  --line-height-relaxed: var(--line-height-1-6);
+  --line-height-loose: var(--line-height-1-8);
+
+  /* =======================================================
+     LETTER SPACING
+  ======================================================= */
+
+  --letter-spacing-minus-0-05: -0.05em;
+  --letter-spacing-minus-0-025: -0.025em;
+  --letter-spacing-0: 0;
+  --letter-spacing-0-025: 0.025em;
+  --letter-spacing-0-05: 0.05em;
+  --letter-spacing-0-1: 0.1em;
+
+  --letter-spacing-tighter: var(--letter-spacing-minus-0-05);
+  --letter-spacing-tight: var(--letter-spacing-minus-0-025);
+  --letter-spacing-normal: var(--letter-spacing-0);
+  --letter-spacing-wide: var(--letter-spacing-0-025);
+  --letter-spacing-wider: var(--letter-spacing-0-05);
+  --letter-spacing-widest: var(--letter-spacing-0-1);
+
+  /* =======================================================
+     TEXT COLORS
+  ======================================================= */
+
+  --text-primary: #02261c;
+  --text-secondary: #555555;
+  --text-muted: #777777;
+  --text-disabled: #aaaaaa;
+  --text-white: #ffffff;
+  --text-black: #000000;
+  --text-red: #ff3131;
+  /* =======================================================
+     BACKGROUND COLORS
+  ======================================================= */
+  --background-primary: #ffffff;
+  --background-secondary: #f7f7f7;
+  --background-tertiary: #eeeeee;
+  --background-dark: #333333;
+  --background-red: #ff3131;
+  --background-gold: #c09446;
+  /* =======================================================
+     STATE COLORS
+  ======================================================= */
+  --color-success: #198754;
+  --color-warning: #ffc107;
+  --color-danger: #dc3545;
+  --color-info: #0dcaf0;
+
+  /* =======================================================
+     BORDER COLORS
+  ======================================================= */
+
+  --border-color: #dddddd;
+  --border-color-light: #eeeeee;
+  --border-color-dark: #cccccc;
+  --border-gold: #c09446;
+
+  /* =======================================================
+     SHADOWS
+  ======================================================= */
+
+  --shadow-none: none;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 20px 50px rgba(0, 0, 0, 0.15);
+
+  /* =======================================================
+     TRANSITIONS
+  ======================================================= */
+
+  --transition-none: none;
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* =======================================================
+     Z INDEX
+  ======================================================= */
+
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal: 400;
+  --z-popover: 500;
+  --z-tooltip: 600;
+
+  /* =======================================================
+     SPACING
+  ======================================================= */
+
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-9: 36px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-30: 120px;
+  --space-40: 160px;
+
+  /* =======================================================
+     WIDTH
+  ======================================================= */
+
+  --width-auto: auto;
+  --width-full: 100%;
+  --width-half: 50%;
+  --width-screen: 100vw;
+  --width-fit: fit-content;
+  --width-max: max-content;
+
+  /* =======================================================
+     MAX WIDTH
+  ======================================================= */
+
+  --max-width-xs: 480px;
+  --max-width-sm: 576px;
+  --max-width-md: 768px;
+  --max-width-lg: 992px;
+  --max-width-xl: 1200px;
+  --max-width-2xl: 1400px;
+  --max-width-3xl: 1600px;
+
+  /* =======================================================
+     CONTAINER
+  ======================================================= */
+
+  --container-width: 1200px;
+  --container-padding: 24px;
+
+  /* =======================================================
+     HEIGHT
+  ======================================================= */
+
+  --height-auto: auto;
+  --height-full: 100%;
+  --height-screen: 100vh;
+  --height-fit: fit-content;
+  --height-max: max-content;
+
+  /* =======================================================
+     BORDER RADIUS
+  ======================================================= */
+
+  --radius-none: 0;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-3xl: 32px;
+  --radius-full: 9999px;
+
+  /* =======================================================
+     BORDER WIDTH
+  ======================================================= */
+
+  --border-none: 0;
+  --border-thin: 1px;
+  --border-medium: 2px;
+  --border-thick: 3px;
+
+  /* =======================================================
+     ICON SIZES
+  ======================================================= */
+
+  --icon-xs: 12px;
+  --icon-sm: 16px;
+  --icon-md: 20px;
+  --icon-lg: 24px;
+  --icon-xl: 32px;
+  --icon-2xl: 40px;
+  --icon-3xl: 48px;
+
+  /* =======================================================
+     BREAKPOINTS
+  ======================================================= */
+
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 911px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+
+  /* =======================================================
+     DISPLAY
+  ======================================================= */
+
+  --display-none: none;
+  --display-block: block;
+  --display-inline: inline;
+  --display-inline-block: inline-block;
+  --display-flex: flex;
+  --display-inline-flex: inline-flex;
+  --display-grid: grid;
+
+  /* =======================================================
+     POSITION
+  ======================================================= */
+
+  --position-static: static;
+  --position-relative: relative;
+  --position-absolute: absolute;
+  --position-fixed: fixed;
+  --position-sticky: sticky;
+
+  /* =======================================================
+     OVERFLOW
+  ======================================================= */
+
+  --overflow-visible: visible;
+  --overflow-hidden: hidden;
+  --overflow-auto: auto;
+  --overflow-scroll: scroll;
+
+  /* =======================================================
+     FLEX DIRECTION
+  ======================================================= */
+
+  --flex-direction-row: row;
+  --flex-direction-row-reverse: row-reverse;
+  --flex-direction-column: column;
+  --flex-direction-column-reverse: column-reverse;
+
+  /* =======================================================
+     FLEX WRAP
+  ======================================================= */
+
+  --flex-wrap-nowrap: nowrap;
+  --flex-wrap-wrap: wrap;
+  --flex-wrap-wrap-reverse: wrap-reverse;
+
+  /* =======================================================
+     JUSTIFY CONTENT
+  ======================================================= */
+
+  --justify-start: flex-start;
+  --justify-center: center;
+  --justify-end: flex-end;
+  --justify-between: space-between;
+  --justify-around: space-around;
+  --justify-evenly: space-evenly;
+
+  /* =======================================================
+     ALIGN ITEMS
+  ======================================================= */
+
+  --align-start: flex-start;
+  --align-center: center;
+  --align-end: flex-end;
+  --align-stretch: stretch;
+  --align-baseline: baseline;
+
+  /* =======================================================
+     ALIGN SELF
+  ======================================================= */
+
+  --align-self-auto: auto;
+  --align-self-start: flex-start;
+  --align-self-center: center;
+  --align-self-end: flex-end;
+  --align-self-stretch: stretch;
+
+  /* =======================================================
+     TEXT ALIGNMENT
+  ======================================================= */
+
+  --text-align-left: left;
+  --text-align-center: center;
+  --text-align-right: right;
+  --text-align-justify: justify;
+
+  /* =======================================================
+     TEXT TRANSFORM
+  ======================================================= */
+
+  --text-transform-none: none;
+  --text-transform-uppercase: uppercase;
+  --text-transform-lowercase: lowercase;
+  --text-transform-capitalize: capitalize;
+
+  /* =======================================================
+     VISIBILITY
+  ======================================================= */
+
+  --visibility-visible: visible;
+  --visibility-hidden: hidden;
+  --visibility-collapse: collapse;
+
+  /* =======================================================
+     CURSOR
+  ======================================================= */
+
+  --cursor-auto: auto;
+  --cursor-default: default;
+  --cursor-pointer: pointer;
+  --cursor-not-allowed: not-allowed;
+  --cursor-wait: wait;
+  --cursor-text: text;
+  --cursor-move: move;
+  --cursor-help: help;
+  --cursor-grab: grab;
+  --cursor-grabbing: grabbing;
+
+  /* =======================================================
+     OPACITY
+  ======================================================= */
+
+  --opacity-0: 0;
+  --opacity-25: 0.25;
+  --opacity-50: 0.5;
+  --opacity-75: 0.75;
+  --opacity-100: 1;
+
+  /* =======================================================
+     USER SELECT
+  ======================================================= */
+
+  --user-select-none: none;
+  --user-select-text: text;
+  --user-select-all: all;
+  --user-select-auto: auto;
+
+  /* =======================================================
+     POINTER EVENTS
+  ======================================================= */
+
+  --pointer-events-none: none;
+  --pointer-events-auto: auto;
+
+  /* =======================================================
+     OBJECT FIT
+  ======================================================= */
+
+  --object-fit-fill: fill;
+  --object-fit-contain: contain;
+  --object-fit-cover: cover;
+  --object-fit-none: none;
+  --object-fit-scale-down: scale-down;
+
+  /* =======================================================
+     OBJECT POSITION
+  ======================================================= */
+
+  --object-position-center: center;
+  --object-position-top: top;
+  --object-position-right: right;
+  --object-position-bottom: bottom;
+  --object-position-left: left;
+
+  /* =======================================================
+     BOX SIZING
+  ======================================================= */
+
+  --box-sizing-content-box: content-box;
+  --box-sizing-border-box: border-box;
+
+  /* =======================================================
+     WHITE SPACE
+  ======================================================= */
+
+  --white-space-normal: normal;
+  --white-space-nowrap: nowrap;
+  --white-space-pre: pre;
+  --white-space-pre-wrap: pre-wrap;
+  --white-space-pre-line: pre-line;
+
+  /* =======================================================
+     WORD BREAK
+  ======================================================= */
+
+  --word-break-normal: normal;
+  --word-break-break-all: break-all;
+  --word-break-keep-all: keep-all;
+  --word-break-break-word: break-word;
+
+  /* =======================================================
+     TEXT OVERFLOW
+  ======================================================= */
+
+  --text-overflow-clip: clip;
+  --text-overflow-ellipsis: ellipsis;
+
+  /* =======================================================
+     FLOAT
+  ======================================================= */
+
+  --float-none: none;
+  --float-left: left;
+  --float-right: right;
+
+  /* =======================================================
+     CLEAR
+  ======================================================= */
+
+  --clear-none: none;
+  --clear-left: left;
+  --clear-right: right;
+  --clear-both: both;
+
+  /* =======================================================
+     VERTICAL ALIGN
+  ======================================================= */
+
+  --vertical-align-baseline: baseline;
+  --vertical-align-top: top;
+  --vertical-align-middle: middle;
+  --vertical-align-bottom: bottom;
+  --vertical-align-text-top: text-top;
+  --vertical-align-text-bottom: text-bottom;
+
+  /* =======================================================
+     CONTENT
+  ======================================================= */
+
+  --content-none: none;
+  --content-normal: normal;
+
+  /* =======================================================
+     MARGIN
+  ======================================================= */
+  --margin-left-auto: auto;
+  --margin-right-auto: auto;
+}

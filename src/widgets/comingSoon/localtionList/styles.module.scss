@@ -1,0 +1,42 @@
+.heroBannerImage {
+  height: 80px;
+}
+
+.locationList {
+  grid-template-columns: 1fr;
+  @media only screen and (min-width: $breakpoint-lg) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.locationListItem {
+  height: 400px;
+  @media only screen and (min-width: $breakpoint-md) {
+    height: 500px;
+  }
+
+  @media only screen and (min-width: $breakpoint-lg) {
+    height: 400px;
+  }
+
+  @media only screen and (min-width: $breakpoint-xl) {
+    height: 583px;
+  }
+}
+
+.listItemTextBox {
+  background-color: rgba(0, 0, 0, 0.12);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.listItemText {
+  text-shadow: 0 0px 2px #000;
+  max-width: 300px;
+}
+
+.borderBottom {
+  width: 72px;
+  height: 4px;
+}

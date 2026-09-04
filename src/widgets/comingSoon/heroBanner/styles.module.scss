@@ -1,0 +1,25 @@
+.heroBannerImage {
+  height: 60px;
+  @media (min-width: $breakpoint-lg) {
+    height: 100px;
+  }
+}
+
+.circledIconBox {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid var(--border-gold);
+}
+
+.herobannerBox {
+  @media only screen and (min-width: $breakpoint-md) {
+    flex-direction: row;
+  }
+}
+
+.contactInfoBox {
+  @media only screen and (min-width: $breakpoint-md) {
+    justify-content: flex-end;
+  }
+}

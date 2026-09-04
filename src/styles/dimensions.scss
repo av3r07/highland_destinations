@@ -1,0 +1,330 @@
+/* =========================================================
+   WIDTH
+========================================================= */
+
+.w-auto {
+  width: var(--width-auto);
+}
+
+.w-full {
+  width: var(--width-full);
+}
+
+.w-half {
+  width: var(--width-half);
+}
+
+.w-screen {
+  width: var(--width-screen);
+}
+
+.w-fit {
+  width: var(--width-fit);
+}
+
+.w-max {
+  width: var(--width-max);
+}
+
+/* =========================================================
+   MAX WIDTH
+========================================================= */
+
+.max-w-xs {
+  max-width: var(--max-width-xs);
+}
+
+.max-w-sm {
+  max-width: var(--max-width-sm);
+}
+
+.max-w-md {
+  max-width: var(--max-width-md);
+}
+
+.max-w-lg {
+  max-width: var(--max-width-lg);
+}
+
+.max-w-xl {
+  max-width: var(--max-width-xl);
+}
+
+.max-w-2xl {
+  max-width: var(--max-width-2xl);
+}
+
+.max-w-3xl {
+  max-width: var(--max-width-3xl);
+}
+
+/* =========================================================
+   HEIGHT
+========================================================= */
+
+.h-auto {
+  height: var(--height-auto);
+}
+
+.h-full {
+  height: var(--height-full);
+}
+
+.h-screen {
+  height: var(--height-screen);
+}
+
+.h-fit {
+  height: var(--height-fit);
+}
+
+.h-max {
+  height: var(--height-max);
+}
+
+/* =========================================================
+   BORDER RADIUS
+========================================================= */
+
+.radius-none {
+  border-radius: var(--radius-none);
+}
+
+.radius-xs {
+  border-radius: var(--radius-xs);
+}
+
+.radius-sm {
+  border-radius: var(--radius-sm);
+}
+
+.radius-md {
+  border-radius: var(--radius-md);
+}
+
+.radius-lg {
+  border-radius: var(--radius-lg);
+}
+
+.radius-xl {
+  border-radius: var(--radius-xl);
+}
+
+.radius-2xl {
+  border-radius: var(--radius-2xl);
+}
+
+.radius-3xl {
+  border-radius: var(--radius-3xl);
+}
+
+.radius-full {
+  border-radius: var(--radius-full);
+}
+
+/* =========================================================
+   BORDER WIDTH
+========================================================= */
+
+.border-none {
+  border-width: var(--border-none);
+}
+
+.border-thin {
+  border-width: var(--border-thin);
+}
+
+.border-medium {
+  border-width: var(--border-medium);
+}
+
+.border-thick {
+  border-width: var(--border-thick);
+}
+
+/* =========================================================
+   ICON SIZE
+========================================================= */
+
+.icon-xs {
+  width: var(--icon-xs);
+  height: var(--icon-xs);
+}
+
+.icon-sm {
+  width: var(--icon-sm);
+  height: var(--icon-sm);
+}
+
+.icon-md {
+  width: var(--icon-md);
+  height: var(--icon-md);
+}
+
+.icon-lg {
+  width: var(--icon-lg);
+  height: var(--icon-lg);
+}
+
+.icon-xl {
+  width: var(--icon-xl);
+  height: var(--icon-xl);
+}
+
+.icon-2xl {
+  width: var(--icon-2xl);
+  height: var(--icon-2xl);
+}
+
+.icon-3xl {
+  width: var(--icon-3xl);
+  height: var(--icon-3xl);
+}
+
+/* =========================================================
+   POSITION OFFSETS
+========================================================= */
+
+.top-0 {
+  top: var(--space-0);
+}
+
+.top-1 {
+  top: var(--space-1);
+}
+
+.top-2 {
+  top: var(--space-2);
+}
+
+.top-3 {
+  top: var(--space-3);
+}
+
+.top-4 {
+  top: var(--space-4);
+}
+
+.top-5 {
+  top: var(--space-5);
+}
+
+.top-6 {
+  top: var(--space-6);
+}
+
+.top-7 {
+  top: var(--space-7);
+}
+
+.top-8 {
+  top: var(--space-8);
+}
+
+.right-0 {
+  right: var(--space-0);
+}
+
+.right-1 {
+  right: var(--space-1);
+}
+
+.right-2 {
+  right: var(--space-2);
+}
+
+.right-3 {
+  right: var(--space-3);
+}
+
+.right-4 {
+  right: var(--space-4);
+}
+
+.right-5 {
+  right: var(--space-5);
+}
+
+.right-6 {
+  right: var(--space-6);
+}
+
+.right-7 {
+  right: var(--space-7);
+}
+
+.right-8 {
+  right: var(--space-8);
+}
+
+.bottom-0 {
+  bottom: var(--space-0);
+}
+
+.bottom-1 {
+  bottom: var(--space-1);
+}
+
+.bottom-2 {
+  bottom: var(--space-2);
+}
+
+.bottom-3 {
+  bottom: var(--space-3);
+}
+
+.bottom-4 {
+  bottom: var(--space-4);
+}
+
+.bottom-5 {
+  bottom: var(--space-5);
+}
+
+.bottom-6 {
+  bottom: var(--space-6);
+}
+
+.bottom-7 {
+  bottom: var(--space-7);
+}
+
+.bottom-8 {
+  bottom: var(--space-8);
+}
+
+.left-0 {
+  left: var(--space-0);
+}
+
+.left-1 {
+  left: var(--space-1);
+}
+
+.left-2 {
+  left: var(--space-2);
+}
+
+.left-3 {
+  left: var(--space-3);
+}
+
+.left-4 {
+  left: var(--space-4);
+}
+
+.left-5 {
+  left: var(--space-5);
+}
+
+.left-6 {
+  left: var(--space-6);
+}
+
+.left-7 {
+  left: var(--space-7);
+}
+
+.left-8 {
+  left: var(--space-8);
+}

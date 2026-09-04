@@ -1,0 +1,101 @@
+/* =========================================================
+   BRANDING UTILITY CLASSES
+========================================================= */
+
+/* =========================================================
+   TEXT COLORS
+========================================================= */
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-disabled {
+  color: var(--text-disabled);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+.text-red {
+  color: var(--text-red);
+}
+
+/* =========================================================
+   BACKGROUND COLORS
+========================================================= */
+
+.bg-primary {
+  background-color: var(--background-primary);
+}
+
+.bg-secondary {
+  background-color: var(--background-secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--background-tertiary);
+}
+
+.bg-dark {
+  background-color: var(--background-dark);
+}
+
+.bg-red {
+  background-color: var(--background-red);
+}
+
+.bg-gold {
+  background-color: var(--background-gold);
+}
+/* =========================================================
+   STATE / STATUS TEXT COLORS
+========================================================= */
+.text-success {
+  color: var(--color-success);
+}
+
+.text-warning {
+  color: var(--color-warning);
+}
+
+.text-danger {
+  color: var(--color-danger);
+}
+
+.text-info {
+  color: var(--color-info);
+}
+
+/* =========================================================
+   STATE / STATUS BACKGROUND COLORS
+========================================================= */
+
+.bg-success {
+  background-color: var(--color-success);
+}
+
+.bg-warning {
+  background-color: var(--color-warning);
+}
+
+.bg-danger {
+  background-color: var(--color-danger);
+}
+
+.bg-info {
+  background-color: var(--color-info);
+}

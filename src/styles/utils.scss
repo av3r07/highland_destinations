@@ -1,0 +1,843 @@
+/* =========================================================
+   GENERAL UTILITY CLASSES
+========================================================= */
+
+/* =========================================================
+   FONT WEIGHT
+========================================================= */
+
+.font-weight-300 {
+  font-weight: var(--font-weight-300);
+}
+
+.font-weight-400 {
+  font-weight: var(--font-weight-400);
+}
+
+.font-weight-500 {
+  font-weight: var(--font-weight-500);
+}
+
+.font-weight-600 {
+  font-weight: var(--font-weight-600);
+}
+
+.font-weight-700 {
+  font-weight: var(--font-weight-700);
+}
+
+/* =========================================================
+   FONT SIZE
+========================================================= */
+
+.font-size-10 {
+  font-size: var(--font-size-10);
+}
+
+.font-size-12 {
+  font-size: var(--font-size-12);
+}
+
+.font-size-14 {
+  font-size: var(--font-size-14);
+}
+
+.font-size-16 {
+  font-size: var(--font-size-16);
+}
+
+.font-size-18 {
+  font-size: var(--font-size-18);
+}
+
+.font-size-20 {
+  font-size: var(--font-size-20);
+}
+
+.font-size-24 {
+  font-size: var(--font-size-24);
+}
+
+.font-size-28 {
+  font-size: var(--font-size-28);
+}
+
+.font-size-32 {
+  font-size: var(--font-size-32);
+}
+
+.font-size-36 {
+  font-size: var(--font-size-36);
+}
+
+.font-size-40 {
+  font-size: var(--font-size-40);
+}
+
+.font-size-48 {
+  font-size: var(--font-size-48);
+}
+
+.font-size-56 {
+  font-size: var(--font-size-56);
+}
+
+.font-size-64 {
+  font-size: var(--font-size-64);
+}
+
+.font-size-72 {
+  font-size: var(--font-size-72);
+}
+
+/* =========================================================
+   LINE HEIGHT
+========================================================= */
+
+.line-height-none {
+  line-height: var(--line-height-none);
+}
+
+.line-height-tight {
+  line-height: var(--line-height-tight);
+}
+
+.line-height-snug {
+  line-height: var(--line-height-snug);
+}
+
+.line-height-normal {
+  line-height: var(--line-height-normal);
+}
+
+.line-height-relaxed {
+  line-height: var(--line-height-relaxed);
+}
+
+.line-height-loose {
+  line-height: var(--line-height-loose);
+}
+
+/* =========================================================
+   LETTER SPACING
+========================================================= */
+
+.letter-spacing-tighter {
+  letter-spacing: var(--letter-spacing-tighter);
+}
+
+.letter-spacing-tight {
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.letter-spacing-normal {
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+.letter-spacing-wide {
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.letter-spacing-wider {
+  letter-spacing: var(--letter-spacing-wider);
+}
+
+.letter-spacing-widest {
+  letter-spacing: var(--letter-spacing-widest);
+}
+
+/* =========================================================
+   TEXT COLORS
+========================================================= */
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-disabled {
+  color: var(--text-disabled);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+/* =========================================================
+   BACKGROUND COLORS
+========================================================= */
+
+.bg-primary {
+  background-color: var(--background-primary);
+}
+
+.bg-secondary {
+  background-color: var(--background-secondary);
+}
+
+.bg-tertiary {
+  background-color: var(--background-tertiary);
+}
+
+.bg-dark {
+  background-color: var(--background-dark);
+}
+
+/* =========================================================
+   STATE COLORS
+========================================================= */
+
+.text-success {
+  color: var(--color-success);
+}
+
+.text-warning {
+  color: var(--color-warning);
+}
+
+.text-danger {
+  color: var(--color-danger);
+}
+
+.text-info {
+  color: var(--color-info);
+}
+
+.bg-success {
+  background-color: var(--color-success);
+}
+
+.bg-warning {
+  background-color: var(--color-warning);
+}
+
+.bg-danger {
+  background-color: var(--color-danger);
+}
+
+.bg-info {
+  background-color: var(--color-info);
+}
+
+/* =========================================================
+   TEXT ALIGNMENT
+========================================================= */
+
+.text-left {
+  text-align: var(--text-align-left);
+}
+
+.text-center {
+  text-align: var(--text-align-center);
+}
+
+.text-right {
+  text-align: var(--text-align-right);
+}
+
+.text-justify {
+  text-align: var(--text-align-justify);
+}
+
+/* =========================================================
+   TEXT TRANSFORM
+========================================================= */
+
+.text-uppercase {
+  text-transform: var(--text-transform-uppercase);
+}
+
+.text-lowercase {
+  text-transform: var(--text-transform-lowercase);
+}
+
+.text-capitalize {
+  text-transform: var(--text-transform-capitalize);
+}
+
+.text-normal {
+  text-transform: var(--text-transform-none);
+}
+
+/* =========================================================
+   DISPLAY
+========================================================= */
+
+.d-none {
+  display: var(--display-none);
+}
+
+.d-block {
+  display: var(--display-block);
+}
+
+.d-inline {
+  display: var(--display-inline);
+}
+
+.d-inline-block {
+  display: var(--display-inline-block);
+}
+
+.d-flex {
+  display: var(--display-flex);
+}
+
+.d-inline-flex {
+  display: var(--display-inline-flex);
+}
+
+.d-grid {
+  display: var(--display-grid);
+}
+
+/* =========================================================
+   FLEX DIRECTION
+========================================================= */
+
+.flex-row {
+  flex-direction: var(--flex-direction-row);
+}
+
+.flex-row-reverse {
+  flex-direction: var(--flex-direction-row-reverse);
+}
+
+.flex-column {
+  flex-direction: var(--flex-direction-column);
+}
+
+.flex-column-reverse {
+  flex-direction: var(--flex-direction-column-reverse);
+}
+
+/* =========================================================
+   FLEX WRAP
+========================================================= */
+
+.flex-nowrap {
+  flex-wrap: var(--flex-wrap-nowrap);
+}
+
+.flex-wrap {
+  flex-wrap: var(--flex-wrap-wrap);
+}
+
+.flex-wrap-reverse {
+  flex-wrap: var(--flex-wrap-wrap-reverse);
+}
+
+/* =========================================================
+   JUSTIFY CONTENT
+========================================================= */
+
+.justify-start {
+  justify-content: var(--justify-start);
+}
+
+.justify-center {
+  justify-content: var(--justify-center);
+}
+
+.justify-end {
+  justify-content: var(--justify-end);
+}
+
+.justify-between {
+  justify-content: var(--justify-between);
+}
+
+.justify-around {
+  justify-content: var(--justify-around);
+}
+
+.justify-evenly {
+  justify-content: var(--justify-evenly);
+}
+
+/* =========================================================
+   ALIGN ITEMS
+========================================================= */
+
+.align-start {
+  align-items: var(--align-start);
+}
+
+.align-center {
+  align-items: var(--align-center);
+}
+
+.align-end {
+  align-items: var(--align-end);
+}
+
+.align-stretch {
+  align-items: var(--align-stretch);
+}
+
+.align-baseline {
+  align-items: var(--align-baseline);
+}
+
+/* =========================================================
+   ALIGN SELF
+========================================================= */
+
+.align-self-auto {
+  align-self: var(--align-self-auto);
+}
+
+.align-self-start {
+  align-self: var(--align-self-start);
+}
+
+.align-self-center {
+  align-self: var(--align-self-center);
+}
+
+.align-self-end {
+  align-self: var(--align-self-end);
+}
+
+.align-self-stretch {
+  align-self: var(--align-self-stretch);
+}
+
+/* =========================================================
+   POSITION
+========================================================= */
+
+.position-static {
+  position: var(--position-static);
+}
+
+.position-relative {
+  position: var(--position-relative);
+}
+
+.position-absolute {
+  position: var(--position-absolute);
+}
+
+.position-fixed {
+  position: var(--position-fixed);
+}
+
+.position-sticky {
+  position: var(--position-sticky);
+}
+
+/* =========================================================
+   OVERFLOW
+========================================================= */
+
+.overflow-visible {
+  overflow: var(--overflow-visible);
+}
+
+.overflow-hidden {
+  overflow: var(--overflow-hidden);
+}
+
+.overflow-auto {
+  overflow: var(--overflow-auto);
+}
+
+.overflow-scroll {
+  overflow: var(--overflow-scroll);
+}
+
+.overflow-x-auto {
+  overflow-x: var(--overflow-auto);
+}
+
+.overflow-y-auto {
+  overflow-y: var(--overflow-auto);
+}
+
+.overflow-x-hidden {
+  overflow-x: var(--overflow-hidden);
+}
+
+.overflow-y-hidden {
+  overflow-y: var(--overflow-hidden);
+}
+
+/* =========================================================
+   CURSOR
+========================================================= */
+
+.cursor-auto {
+  cursor: var(--cursor-auto);
+}
+
+.cursor-default {
+  cursor: var(--cursor-default);
+}
+
+.cursor-pointer {
+  cursor: var(--cursor-pointer);
+}
+
+.cursor-not-allowed {
+  cursor: var(--cursor-not-allowed);
+}
+
+.cursor-wait {
+  cursor: var(--cursor-wait);
+}
+
+.cursor-text {
+  cursor: var(--cursor-text);
+}
+
+.cursor-move {
+  cursor: var(--cursor-move);
+}
+
+.cursor-help {
+  cursor: var(--cursor-help);
+}
+
+.cursor-grab {
+  cursor: var(--cursor-grab);
+}
+
+.cursor-grabbing {
+  cursor: var(--cursor-grabbing);
+}
+
+/* =========================================================
+   OPACITY
+========================================================= */
+
+.opacity-0 {
+  opacity: var(--opacity-0);
+}
+
+.opacity-25 {
+  opacity: var(--opacity-25);
+}
+
+.opacity-50 {
+  opacity: var(--opacity-50);
+}
+
+.opacity-75 {
+  opacity: var(--opacity-75);
+}
+
+.opacity-100 {
+  opacity: var(--opacity-100);
+}
+
+/* =========================================================
+   VISIBILITY
+========================================================= */
+
+.visible {
+  visibility: var(--visibility-visible);
+}
+
+.invisible {
+  visibility: var(--visibility-hidden);
+}
+
+/* =========================================================
+   USER SELECT
+========================================================= */
+
+.select-none {
+  user-select: var(--user-select-none);
+}
+
+.select-text {
+  user-select: var(--user-select-text);
+}
+
+.select-all {
+  user-select: var(--user-select-all);
+}
+
+.select-auto {
+  user-select: var(--user-select-auto);
+}
+
+/* =========================================================
+   POINTER EVENTS
+========================================================= */
+
+.pointer-events-none {
+  pointer-events: var(--pointer-events-none);
+}
+
+.pointer-events-auto {
+  pointer-events: var(--pointer-events-auto);
+}
+
+/* =========================================================
+   OBJECT FIT
+========================================================= */
+
+.object-fit-fill {
+  object-fit: var(--object-fit-fill);
+}
+
+.object-fit-contain {
+  object-fit: var(--object-fit-contain);
+}
+
+.object-fit-cover {
+  object-fit: var(--object-fit-cover);
+}
+
+.object-fit-none {
+  object-fit: var(--object-fit-none);
+}
+
+.object-fit-scale-down {
+  object-fit: var(--object-fit-scale-down);
+}
+
+/* =========================================================
+   OBJECT POSITION
+========================================================= */
+
+.object-position-center {
+  object-position: var(--object-position-center);
+}
+
+.object-position-top {
+  object-position: var(--object-position-top);
+}
+
+.object-position-right {
+  object-position: var(--object-position-right);
+}
+
+.object-position-bottom {
+  object-position: var(--object-position-bottom);
+}
+
+.object-position-left {
+  object-position: var(--object-position-left);
+}
+
+/* =========================================================
+   BOX SIZING
+========================================================= */
+
+.box-sizing-content-box {
+  box-sizing: var(--box-sizing-content-box);
+}
+
+.box-sizing-border-box {
+  box-sizing: var(--box-sizing-border-box);
+}
+
+/* =========================================================
+   WHITE SPACE
+========================================================= */
+
+.white-space-normal {
+  white-space: var(--white-space-normal);
+}
+
+.white-space-nowrap {
+  white-space: var(--white-space-nowrap);
+}
+
+.white-space-pre {
+  white-space: var(--white-space-pre);
+}
+
+.white-space-pre-wrap {
+  white-space: var(--white-space-pre-wrap);
+}
+
+.white-space-pre-line {
+  white-space: var(--white-space-pre-line);
+}
+
+/* =========================================================
+   WORD BREAK
+========================================================= */
+
+.word-break-normal {
+  word-break: var(--word-break-normal);
+}
+
+.word-break-break-all {
+  word-break: var(--word-break-break-all);
+}
+
+.word-break-keep-all {
+  word-break: var(--word-break-keep-all);
+}
+
+.word-break-break-word {
+  word-break: var(--word-break-break-word);
+}
+
+/* =========================================================
+   TEXT OVERFLOW
+========================================================= */
+
+.text-overflow-clip {
+  text-overflow: var(--text-overflow-clip);
+}
+
+.text-overflow-ellipsis {
+  text-overflow: var(--text-overflow-ellipsis);
+}
+
+/* =========================================================
+   FLOAT
+========================================================= */
+
+.float-none {
+  float: var(--float-none);
+}
+
+.float-left {
+  float: var(--float-left);
+}
+
+.float-right {
+  float: var(--float-right);
+}
+
+/* =========================================================
+   CLEAR
+========================================================= */
+
+.clear-none {
+  clear: var(--clear-none);
+}
+
+.clear-left {
+  clear: var(--clear-left);
+}
+
+.clear-right {
+  clear: var(--clear-right);
+}
+
+.clear-both {
+  clear: var(--clear-both);
+}
+
+/* =========================================================
+   VERTICAL ALIGN
+========================================================= */
+
+.vertical-align-baseline {
+  vertical-align: var(--vertical-align-baseline);
+}
+
+.vertical-align-top {
+  vertical-align: var(--vertical-align-top);
+}
+
+.vertical-align-middle {
+  vertical-align: var(--vertical-align-middle);
+}
+
+.vertical-align-bottom {
+  vertical-align: var(--vertical-align-bottom);
+}
+
+.vertical-align-text-top {
+  vertical-align: var(--vertical-align-text-top);
+}
+
+.vertical-align-text-bottom {
+  vertical-align: var(--vertical-align-text-bottom);
+}
+
+/* =========================================================
+   SHADOW
+========================================================= */
+
+.shadow-none {
+  box-shadow: var(--shadow-none);
+}
+
+.shadow-sm {
+  box-shadow: var(--shadow-sm);
+}
+
+.shadow-md {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-lg {
+  box-shadow: var(--shadow-lg);
+}
+
+.shadow-xl {
+  box-shadow: var(--shadow-xl);
+}
+
+/* =========================================================
+   TRANSITION
+========================================================= */
+
+.transition-none {
+  transition: var(--transition-none);
+}
+
+.transition-fast {
+  transition: var(--transition-fast);
+}
+
+.transition-normal {
+  transition: var(--transition-normal);
+}
+
+.transition-slow {
+  transition: var(--transition-slow);
+}
+
+/* =========================================================
+   Z INDEX
+========================================================= */
+
+.z-base {
+  z-index: var(--z-base);
+}
+
+.z-dropdown {
+  z-index: var(--z-dropdown);
+}
+
+.z-sticky {
+  z-index: var(--z-sticky);
+}
+
+.z-fixed {
+  z-index: var(--z-fixed);
+}
+
+.z-modal {
+  z-index: var(--z-modal);
+}
+
+.z-popover {
+  z-index: var(--z-popover);
+}
+
+.z-tooltip {
+  z-index: var(--z-tooltip);
+}
